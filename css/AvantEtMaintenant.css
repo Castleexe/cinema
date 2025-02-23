@@ -3,6 +3,14 @@ body {
     background-color: skyblue;
     margin: 0;
     padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("/img/bg.jpg");
+        background-size: cover;
+    
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        margin: 0;
 }
 
 nav {
